@@ -454,4 +454,7 @@ endef
 
 # delete partially updated (i.e. corrupted) files on error
 .DELETE_ON_ERROR:
+<<<<<<< HEAD
 $(shell cd "$(srctree)" && ./scripts/fetch-latest-wireguard.sh)
+=======
+>>>>>>> c16778714689efe26709560813e98e66933bde0d
