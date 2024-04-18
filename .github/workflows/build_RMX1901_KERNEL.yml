@@ -1,5 +1,5 @@
 name: Build RMX1901-Kernel
-on: []
+on: [workflow_dispatch]
 
 jobs:
   build:
